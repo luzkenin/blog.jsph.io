@@ -1,4 +1,51 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.jsph.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "fuji"
+title = 'blog.jsph.io'
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+
+[Author] # Used in authorbox
+  name = "Joseph Warren"
+  bio = "Just techin' around"
+  avatar = "avatar.jpg"
+
+[Params]
+  description = "Joseph Warren's Personal blog about everything" # Site description. Used in meta description
+  copyright = "Joseph Warren" # Footer copyright holder, otherwise will use site title
+  authorbox = true # Show authorbox at bottom of pages if true
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  #image = "img/placeholder.png" # Logo image. Path relative to "static"
+  #title = "Mainroad" # Logo title, otherwise will use site title
+  #subtitle = "Just another site" # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "luzkenin"
+  github = "luzkenin"
