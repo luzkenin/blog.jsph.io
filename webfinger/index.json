@@ -1,0 +1,25 @@
+{
+    "subject":"acct:luzkenin@infosec.exchange",
+    "aliases":
+    [
+    "https://infosec.exchange/@luzkenin",
+    "https://infosec.exchange/users/luzkenin"
+    ],
+    "links":
+    [
+    {
+        "rel":"http://webfinger.net/rel/profile-page",
+        "type":"text/html",
+        "href":"https://infosec.exchange/@luzkenin"
+    },
+    {
+        "rel":"self",
+        "type":"application/activity+json",
+        "href":"https://infosec.exchange/users/luzkenin"
+    },
+    {
+        "rel":"http://ostatus.org/schema/1.0/subscribe",
+        "template":"https://infosec.exchange/authorize_interaction?uri={uri}"
+    }
+    ]
+}
