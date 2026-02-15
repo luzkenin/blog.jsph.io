@@ -1,0 +1,449 @@
+baseURL = 'http://floach.pimpin.net/'
+languageCode = 'en-us'
+title = 'floach.pimpin.net'
+theme = 'floach'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "the alternative to microsoft dot net"
+  # The tagline HTML below the logo (supports HTML for per-letter color accents)
+  taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">m</font> i c r o s o f t <font color="#A9BC9E">d</font> o t <font color="#A9BC9E">n</font> e t'
+  # The italic quote below the tagline
+  quote = "the shell community is full of mountains, valleys, and dangerous cliffs"
+  # Logo image settings
+  logoImage = "/img/logo.jpg"
+  logoWidth = 399
+  logoHeight = 66
+  # News archive heading
+  newsArchiveHeading = "News Archive"
+  # Footer credit (HTML comment)
+  footerCredit = "built with metapad and hugo"
+  # Privacy policy link path (leave empty to hide)
+  privacyPolicyPath = "/policy.txt"
+  # Background tile credit text (leave empty to hide)
+  bgCreditHTML = '(for this background, and many more cool-looking tiles, check out <a href="https://metalab.unc.edu/propaganda/">Propaganda</a>.)'
+
+# Footer button images
+[params.footer_buttons]
+  [[params.footer_buttons.items]]
+    url = "https://www.xsweekly.com/"
+    image = "/img/xsweekly.gif"
+    alt = "*the* weekly shell news update"
+    width = 90
+    height = 30
+  [[params.footer_buttons.items]]
+    url = "https://metalab.unc.edu/propaganda/"
+    image = "/img/propaganda.gif"
+    alt = "Propaganda Tiles"
+    width = 90
+    height = 30
+  [[params.footer_buttons.items]]
+    url = "https://www.dtop.org/"
+    image = "/img/dtop.gif"
+    alt = "dTOP.org - Change that DeskTOP!"
+    width = 90
+    height = 30
+  [[params.footer_buttons.items]]
+    url = "#"
+    image = "/img/metapad.gif"
+    alt = "HTML/CSS written using metapad"
+    width = 88
+    height = 31
+
+# Secondary footer button (displayed below the main row)
+[params.footer_buttons.secondary]
+  url = "#"
+  image = "/img/scm.jpg"
+  alt = "Save ChunkyMunky!"
+  width = 106
+  height = 24
+
+[taxonomies]
+  author = "authors"
+
+[pagination]
+  pagerSize = 15
+
+# -------------------------------------------------------
+# Sidebar Menus
+# -------------------------------------------------------
+
+[[menus.bulletin_board]]
+  name = "Bulletin Board"
+  url = "#"
+  weight = 1
+
+[[menus.hosted]]
+  name = "Binary Productions"
+  url = "#"
+  weight = 1
+[[menus.hosted]]
+  name = "GeekMaster"
+  url = "#"
+  weight = 2
+[[menus.hosted]]
+  name = "grim reaper designs"
+  url = "#"
+  weight = 3
+[[menus.hosted]]
+  name = "FlashBACK"
+  url = "#"
+  weight = 4
+[[menus.hosted]]
+  name = "lsdev@fpn"
+  url = "#"
+  weight = 5
+[[menus.hosted]]
+  name = "NeXTer's Dominion"
+  url = "#"
+  weight = 6
+[[menus.hosted]]
+  name = "Pavel (LSG)"
+  url = "#"
+  weight = 7
+[[menus.hosted]]
+  name = "Second-Party Software"
+  url = "#"
+  weight = 8
+[[menus.hosted]]
+  name = "Visigoth's Domain"
+  url = "#"
+  weight = 9
+
+[[menus.must_see]]
+  name = "AlphaTek"
+  url = "#"
+  weight = 1
+[[menus.must_see]]
+  name = "Desktopian.org"
+  url = "#"
+  weight = 2
+[[menus.must_see]]
+  name = "DesktopSource"
+  url = "#"
+  weight = 3
+[[menus.must_see]]
+  name = "dTOP.org"
+  url = "https://www.dtop.org/"
+  weight = 4
+[[menus.must_see]]
+  name = "Mindjunction"
+  url = "#"
+  weight = 5
+[[menus.must_see]]
+  name = "Propaganda"
+  url = "https://metalab.unc.edu/propaganda/"
+  weight = 6
+[[menus.must_see]]
+  name = "Shell City"
+  url = "#"
+  weight = 7
+[[menus.must_see]]
+  name = "ThinkDan"
+  url = "#"
+  weight = 8
+[[menus.must_see]]
+  name = "XSWeekly"
+  url = "https://www.xsweekly.com/"
+  weight = 9
+
+[[menus.shells]]
+  name = "CodeX"
+  url = "#"
+  weight = 1
+[[menus.shells]]
+  name = "core"
+  url = "#"
+  weight = 2
+[[menus.shells]]
+  name = "DarkStep"
+  url = "#"
+  weight = 3
+[[menus.shells]]
+  name = "Dimension"
+  url = "#"
+  weight = 4
+[[menus.shells]]
+  name = "EVWM"
+  url = "#"
+  weight = 5
+[[menus.shells]]
+  name = "E-Sense"
+  url = "#"
+  weight = 6
+[[menus.shells]]
+  name = "geOShell"
+  url = "#"
+  weight = 7
+[[menus.shells]]
+  name = "Graphite"
+  url = "#"
+  weight = 8
+[[menus.shells]]
+  name = "IceSphere"
+  url = "#"
+  weight = 9
+[[menus.shells]]
+  name = "Litestep"
+  url = "#"
+  weight = 10
+[[menus.shells]]
+  name = "OpenView"
+  url = "#"
+  weight = 11
+[[menus.shells]]
+  name = "Outsider 99"
+  url = "#"
+  weight = 12
+[[menus.shells]]
+  name = "PureLS"
+  url = "#"
+  weight = 13
+[[menus.shells]]
+  name = "Reveal"
+  url = "#"
+  weight = 14
+[[menus.shells]]
+  name = "Serenade"
+  url = "#"
+  weight = 15
+
+[[menus.litestep]]
+  name = "Litestep.net"
+  url = "#"
+  weight = 1
+[[menus.litestep]]
+  name = "Litestep.org"
+  url = "#"
+  weight = 2
+[[menus.litestep]]
+  name = "Litestep2000"
+  url = "#"
+  weight = 3
+[[menus.litestep]]
+  name = "help.litestep.com"
+  url = "#"
+  weight = 4
+[[menus.litestep]]
+  name = "LS Dev Team"
+  url = "#"
+  weight = 5
+[[menus.litestep]]
+  name = "LS FAQ"
+  url = "#"
+  weight = 6
+[[menus.litestep]]
+  name = "LS Portal"
+  url = "#"
+  weight = 7
+[[menus.litestep]]
+  name = "Modulo"
+  url = "#"
+  weight = 8
+[[menus.litestep]]
+  name = "stepForum"
+  url = "#"
+  weight = 9
+
+[[menus.ls_modules]]
+  name = "Complete List"
+  url = "#"
+  weight = 1
+[[menus.ls_modules]]
+  name = "lscount"
+  url = "#"
+  weight = 2
+  [menus.ls_modules.params]
+    important = true
+
+[[menus.ls_modules_updated]]
+  name = "smbangs r3"
+  url = "#"
+  weight = 1
+[[menus.ls_modules_updated]]
+  name = "bang.exe"
+  url = "#"
+  weight = 2
+[[menus.ls_modules_updated]]
+  name = "lsdrinks"
+  url = "#"
+  weight = 3
+[[menus.ls_modules_updated]]
+  name = "rainlendar"
+  url = "#"
+  weight = 4
+[[menus.ls_modules_updated]]
+  name = "textedit"
+  url = "#"
+  weight = 5
+[[menus.ls_modules_updated]]
+  name = "lsmail"
+  url = "#"
+  weight = 6
+
+[[menus.get_litestep]]
+  name = "builds@ls.net"
+  url = "#"
+  weight = 1
+[[menus.get_litestep]]
+  name = "old LS builds"
+  url = "#"
+  weight = 2
+[[menus.get_litestep]]
+  name = "lsdev@fpn"
+  url = "#"
+  weight = 3
+[[menus.get_litestep]]
+  name = "Changes.txt"
+  url = "#"
+  weight = 4
+[[menus.get_litestep]]
+  name = "Source Code"
+  url = "#"
+  weight = 5
+[[menus.get_litestep]]
+  name = "msvcp60.dll"
+  url = "#"
+  weight = 6
+
+[[menus.get_litestep_builds]]
+  name = "Litestep 0.24.5"
+  url = "#"
+  weight = 1
+[[menus.get_litestep_builds]]
+  name = "Latest FPN Build"
+  url = "#"
+  weight = 2
+[[menus.get_litestep_builds]]
+  name = "Latest LSDev Build"
+  url = "#"
+  weight = 3
+
+[[menus.tutorials]]
+  name = "Upgrading LS"
+  url = "#"
+  weight = 1
+[[menus.tutorials]]
+  name = "Debugging LS"
+  url = "#"
+  weight = 2
+[[menus.tutorials]]
+  name = "Testing LS"
+  url = "#"
+  weight = 3
+[[menus.tutorials]]
+  name = "Multiple Popups"
+  url = "#"
+  weight = 4
+[[menus.tutorials]]
+  name = "Shortcut Groups"
+  url = "#"
+  weight = 5
+[[menus.tutorials]]
+  name = "Visigoth's Module Tutorial"
+  url = "#"
+  weight = 6
+[[menus.tutorials]]
+  name = "LS to PureLS Tutorial"
+  url = "#"
+  weight = 7
+
+[[menus.mailing_lists]]
+  name = "DarkStep"
+  url = "#"
+  weight = 1
+[[menus.mailing_lists]]
+  name = "Dimension"
+  url = "#"
+  weight = 2
+[[menus.mailing_lists]]
+  name = "ge0Shell"
+  url = "#"
+  weight = 3
+[[menus.mailing_lists]]
+  name = "ge0Shell Dev"
+  url = "#"
+  weight = 4
+[[menus.mailing_lists]]
+  name = "LS Mailing List"
+  url = "#"
+  weight = 5
+[[menus.mailing_lists]]
+  name = "LS-STUFF List"
+  url = "#"
+  weight = 6
+[[menus.mailing_lists]]
+  name = "XSWeekly"
+  url = "#"
+  weight = 7
+
+[[menus.customizing]]
+  name = "Styles"
+  url = "#"
+  weight = 1
+[[menus.customizing]]
+  name = "Icons"
+  url = "#"
+  weight = 2
+
+[[menus.utilities]]
+  name = "Shell Managers"
+  url = "#"
+  weight = 1
+[[menus.utilities]]
+  name = "System"
+  url = "#"
+  weight = 2
+[[menus.utilities]]
+  name = "Graphics"
+  url = "#"
+  weight = 3
+
+[[menus.misc]]
+  name = "State of the Step"
+  url = "#"
+  weight = 1
+[[menus.misc]]
+  name = "cheggidout archive"
+  url = "#"
+  weight = 2
+[[menus.misc]]
+  name = "Articles"
+  url = "#"
+  weight = 3
+[[menus.misc]]
+  name = "Site Info"
+  url = "#"
+  weight = 4
+[[menus.misc]]
+  name = "Buttons"
+  url = "#"
+  weight = 5
+[[menus.misc]]
+  name = "Contact"
+  url = "#"
+  weight = 6
+
+# Desktop screenshots shown in sidebar
+[params.desktops]
+  [[params.desktops.items]]
+    heading = "root's desktop"
+    image = "/img/rootriderss-small.jpg"
+    imageAlt = "rootrider's SS"
+    imageUrl = "#"
+    links = [
+      { name = "journal", url = "#" },
+      { name = "User #24", url = "#" },
+    ]
+  [[params.desktops.items]]
+    heading = "KuhnDog's desktop"
+    image = "/img/kuhndogss-small.jpg"
+    imageAlt = "Kuhndog's Screenshot"
+    imageUrl = "#"
+    links = [
+      { name = "User #9", url = "#" },
+    ]

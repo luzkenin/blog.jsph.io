@@ -1,0 +1,13 @@
+<font color="A9BC9E" size="3"><b><a href="{{ .Permalink }}" style="color: #A9BC9E; text-decoration: none;">{{ .Title }}</a></b></font><br>
+{{ .Summary }}
+{{ if .Truncated }}<br><a href="{{ .Permalink }}">Read more...</a>{{ end }}
+{{ with .Params.linkUrl }}
+<br><a href="{{ . }}">{{ $.Params.linkName }}</a>
+<font color="A9BC9E" size="1">[</font>  {{ $.Params.linkDisplay }}  <font color="A9BC9E" size="1">]</font>
+{{ end }}
+{{ with .Params.discussUrl }}
+<font color="A9BC9E" size="1">[</font><a href="{{ . }}"> Discuss This </a><font color="A9BC9E" size="1">]</font>
+{{ end }}<br>
+-<a href="mailto:{{ .Params.authorEmail }}"> {{ .Params.author }} </a> - @
+<font color="A9BC9E" size="0"><b> {{ .Date.Format "01-02-2006, 3:04 PM" }} </b></font>
+<br><br><br>

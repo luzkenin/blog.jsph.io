@@ -1,0 +1,72 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: x-small;
+  background-color: #2C2F40;
+  background-image: url(/img/bg.jpg);
+  color: #FFFFFF;
+}
+
+td {
+  font-size: x-small;
+}
+
+a:link {
+  color: #8AA4BD;
+}
+
+a:visited {
+  color: #78C0A0;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #008080;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+blockquote {
+  color: #FFFFFF;
+}
+
+code {
+  color: #8AA4BD;
+}
+
+.caption {
+  color: #8AA4BD;
+  font-size: xx-small;
+}
+
+.small {
+  font-size: xx-small;
+}
+
+.menu a:link {
+  font-family: "times new roman", times, serif;
+  font-size: x-small;
+}
+
+.menu a:visited {
+  font-family: "times new roman", times, serif;
+  font-size: x-small;
+}
+
+.menu a:hover {
+  color: #FFFFFF;
+}
+
+.menuheading {
+  font-family: "times new roman", times, serif;
+  font-size: x-small;
+}
+
+.menuheading2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+}

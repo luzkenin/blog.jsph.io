@@ -1,0 +1,12 @@
+name = "floach"
+license = "MIT"
+licenselink = ""
+description = "A Hugo theme recreating floach.pimpin.net circa October 2000 - a LiteStep/alternative Windows shell community news site"
+homepage = "http://floach.pimpin.net/"
+tags = ["retro", "2000s", "litestep", "shell"]
+features = ["news", "sidebar"]
+min_version = "0.100.0"
+
+[author]
+  name = "floach"
+  homepage = "http://floach.pimpin.net/"
