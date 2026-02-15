@@ -30,35 +30,35 @@ theme = 'floach'
 # Footer button images
 [params.footer_buttons]
   [[params.footer_buttons.items]]
-    url = "https://www.xsweekly.com/"
-    image = "/img/xsweekly.gif"
-    alt = "*the* weekly shell news update"
-    width = 90
-    height = 30
+    url = "https://www.firefox.com/en-US/?redirect_source=mozilla-org"
+    image = "/img/firefoxn00bs.gif"
+    alt = "Get Firefox"
+    width = 88
+    height = 31
   [[params.footer_buttons.items]]
     url = "https://github.com/BenjaminHCCarr/PropagandaTiles"
     image = "/img/propaganda.gif"
     alt = "Propaganda Tiles"
-    width = 90
-    height = 30
+    width = 88
+    height = 31
   [[params.footer_buttons.items]]
-    url = "https://www.dtop.org/"
-    image = "/img/dtop.gif"
-    alt = "dTOP.org - Change that DeskTOP!"
-    width = 90
-    height = 30
+    url = "https://fedoraproject.org/"
+    image = "/img/linux_powered.gif"
+    alt = "Fedora Linux"
+    width = 88
+    height = 31
   [[params.footer_buttons.items]]
-    url = "#"
-    image = "/img/metapad.gif"
-    alt = "HTML/CSS written using metapad"
+    url = "https://neocities.org/"
+    image = "/img/neocitiespink.gif"
+    alt = "Build your own site"
     width = 88
     height = 31
 
 # Secondary footer button (displayed below the main row)
 [params.footer_buttons.secondary]
   url = "#"
-  image = "/img/scm.jpg"
-  alt = "Save ChunkyMunky!"
+  image = "/img/sucks.gif"
+  alt = "This website sucks"
   width = 106
   height = 24
 
