@@ -1,6 +1,6 @@
-baseURL = 'http://floach.pimpin.net/'
+baseURL = 'https://blog.jsph.io/'
 languageCode = 'en-us'
-title = 'floach.pimpin.net'
+title = 'blog.jsph.io'
 theme = 'floach'
 
 [markup]
@@ -21,11 +21,11 @@ theme = 'floach'
   # News archive heading
   newsArchiveHeading = "News Archive"
   # Footer credit (HTML comment)
-  footerCredit = "built with metapad and hugo"
+  footerCredit = "built with code and hugo"
   # Privacy policy link path (leave empty to hide)
   privacyPolicyPath = "/policy.txt"
   # Background tile credit text (leave empty to hide)
-  bgCreditHTML = '(for this background, and many more cool-looking tiles, check out <a href="https://metalab.unc.edu/propaganda/">Propaganda</a>.)'
+  bgCreditHTML = '(for this background, and many more cool-looking tiles, check out <a href="https://github.com/BenjaminHCCarr/PropagandaTiles">Propaganda</a>.)'
 
 # Footer button images
 [params.footer_buttons]
@@ -36,7 +36,7 @@ theme = 'floach'
     width = 90
     height = 30
   [[params.footer_buttons.items]]
-    url = "https://metalab.unc.edu/propaganda/"
+    url = "https://github.com/BenjaminHCCarr/PropagandaTiles"
     image = "/img/propaganda.gif"
     alt = "Propaganda Tiles"
     width = 90
