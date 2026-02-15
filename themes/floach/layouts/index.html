@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ range first 15 $posts }}
+  {{ partial "post-item.html" . }}
+{{ end }}
+{{ end }}

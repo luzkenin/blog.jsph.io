@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body bgcolor="#2C2F40" background="/img/bg.jpg" text="#FFFFFF" link="#8AA4BD" alink="#FFFFFF" vlink="#78C0A0">
+
+<a name="top"></a>
+
+<table cellspacing="0" cellpadding="2" width="100%" border="0">
+<tr>
+<td width="80%" valign="top" align="left"><font size="2" face="Arial">
+
+{{ partial "logo.html" . }}
+
+{{ block "main" . }}{{ end }}
+
+<br><br>
+<table width="100%"><tr><td align="right">
+  {{ if .IsHome }}<a href="/posts/">View All Posts</a>{{ end }}
+</td></tr></table>
+
+</font></td>
+
+<!-- Vertical divider -->
+<td width="26" align="center" valign="top" background="/img/rightbarbkg.jpg">
+</td>
+
+<!-- Right sidebar menu -->
+<td width="180" align="right" valign="top">
+  {{ partial "nav-sidebar.html" . }}
+</td>
+
+</tr>
+</table>
+
+{{ partial "footer-buttons.html" . }}
+{{ partial "footer.html" . }}
+
+</body>
+</html>

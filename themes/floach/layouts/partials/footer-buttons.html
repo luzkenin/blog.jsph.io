@@ -1,0 +1,21 @@
+<div align="center">
+{{ range site.Params.footer_buttons.items }}
+<a href="{{ .url }}"><img src="{{ .image }}" border="0" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" hspace="1"></a>
+{{ end }}
+{{ with site.Params.footer_buttons.secondary }}
+<p>
+<div align="center">
+<a href="{{ .url }}"><img src="{{ .image }}" border="0" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" hspace="1"></a>
+</div>
+{{ end }}
+{{ with site.Params.bgCreditHTML }}
+<p>
+<span style="font-size: 70%; font-family: sans-serif;">
+  {{ . | safeHTML }}
+</span>
+{{ end }}
+{{ with site.Params.privacyPolicyPath }}
+<p>
+<a href="{{ . }}">Privacy Policy</a>
+{{ end }}
+</div>

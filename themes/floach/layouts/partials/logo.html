@@ -1,0 +1,5 @@
+<div align="center">
+<a href="/"><img src="{{ site.Params.logoImage | default "/img/logo.jpg" }}" width="{{ site.Params.logoWidth | default 399 }}" height="{{ site.Params.logoHeight | default 66 }}" alt="{{ site.Title }}" border="0"></a><br>
+{{ with site.Params.taglineHTML }}<small>{{ . | safeHTML }}</small>{{ end }}
+</div><br>
+{{ with site.Params.quote }}<div align="center"><i>{{ . }}</i></div>{{ end }}
