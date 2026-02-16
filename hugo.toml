@@ -9,9 +9,9 @@ theme = 'floach'
       unsafe = true
 
 [params]
-  description = "the alternative to microsoft dot net"
+  description = "the alternative to whatever you got"
   # The tagline HTML below the logo (supports HTML for per-letter color accents)
-  taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">m</font> i c r o s o f t <font color="#A9BC9E">d</font> o t <font color="#A9BC9E">n</font> e t'
+  taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">w</font> h a t e v e r <font color="#A9BC9E">y</font> o u <font color="#A9BC9E">g</font> o t'
   # The italic quote below the tagline
   quote = "just show up"
   # Logo image settings
@@ -435,12 +435,4 @@ theme = 'floach'
     links = [
       { name = "journal", url = "#" },
       { name = "User #24", url = "#" },
-    ]
-  [[params.desktops.items]]
-    heading = "KuhnDog's desktop"
-    image = "/img/kuhndogss-small.jpg"
-    imageAlt = "Kuhndog's Screenshot"
-    imageUrl = "#"
-    links = [
-      { name = "User #9", url = "#" },
     ]
