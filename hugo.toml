@@ -152,38 +152,38 @@ theme = 'floach'
   name = "NetNerds"
   url = "https://blog.netnerds.net/"
   weight = 1
-[[menus.must_see]]
-  name = "Desktopian.org"
-  url = "#"
-  weight = 2
-[[menus.must_see]]
-  name = "DesktopSource"
-  url = "#"
-  weight = 3
-[[menus.must_see]]
-  name = "dTOP.org"
-  url = "https://www.dtop.org/"
-  weight = 4
-[[menus.must_see]]
-  name = "Mindjunction"
-  url = "#"
-  weight = 5
+# [[menus.must_see]]
+#   name = "Desktopian.org"
+#   url = "#"
+#   weight = 2
+# [[menus.must_see]]
+#   name = "DesktopSource"
+#   url = "#"
+#   weight = 3
+# [[menus.must_see]]
+#   name = "dTOP.org"
+#   url = "https://www.dtop.org/"
+#   weight = 4
+# [[menus.must_see]]
+#   name = "Mindjunction"
+#   url = "#"
+#   weight = 5
 [[menus.must_see]]
   name = "Propaganda"
-  url = "https://metalab.unc.edu/propaganda/"
+  url = "https://github.com/BenjaminHCCarr/PropagandaTiles"
   weight = 6
-[[menus.must_see]]
-  name = "Shell City"
-  url = "#"
-  weight = 7
-[[menus.must_see]]
-  name = "ThinkDan"
-  url = "#"
-  weight = 8
-[[menus.must_see]]
-  name = "XSWeekly"
-  url = "https://www.xsweekly.com/"
-  weight = 9
+# [[menus.must_see]]
+#   name = "Shell City"
+#   url = "#"
+#   weight = 7
+# [[menus.must_see]]
+#   name = "ThinkDan"
+#   url = "#"
+#   weight = 8
+# [[menus.must_see]]
+#   name = "XSWeekly"
+#   url = "https://www.xsweekly.com/"
+#   weight = 9
 
 [[menus.old_web]]
   name = "NeoCities"
