@@ -428,10 +428,10 @@ theme = 'floach'
 # Desktop screenshots shown in sidebar
 [params.desktops]
   [[params.desktops.items]]
-    heading = "root's desktop"
-    image = "/img/rootriderss-small.jpg"
-    imageAlt = "rootrider's SS"
-    imageUrl = "#"
+    heading = "luzkenin's old desktop"
+    image = "/img/110303.JPG"
+    imageAlt = "luzkenin's SS"
+    imageUrl = "/img/110303.JPG"
     links = [
       { name = "journal", url = "#" },
       { name = "User #24", url = "#" },
