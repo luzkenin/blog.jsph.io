@@ -152,10 +152,10 @@ theme = 'floach'
   name = "NetNerds"
   url = "https://blog.netnerds.net/"
   weight = 1
-# [[menus.must_see]]
-#   name = "Desktopian.org"
-#   url = "#"
-#   weight = 2
+[[menus.must_see]]
+  name = "digg.com"
+  url = "https://digg.com/?feed=all-digg"
+  weight = 2
 # [[menus.must_see]]
 #   name = "DesktopSource"
 #   url = "#"
