@@ -103,6 +103,11 @@ theme = 'floach'
   menu = "cool_apps"
   style = "menuheading2"
 
+[[params.sidebar_sections]]
+  heading = "Cool Games"
+  menu = "cool_games"
+  style = "menuheading2"
+
 # [[params.sidebar_sections]]
 #   heading = "LS Modules"
 #   menu = "ls_modules"
