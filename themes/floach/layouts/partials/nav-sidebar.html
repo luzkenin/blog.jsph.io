@@ -1,112 +1,16 @@
 <div class="menu">
 
-{{ with site.Menus.bulletin_board }}
-<span class="menuheading">
-{{ range . }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}</span><br><br>
-{{ end }}
-
-{{ with site.Menus.hosted }}
-<span class="menuheading">Hosted</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.must_see }}
-<span class="menuheading">Must See Sites</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.shells }}
-<span class="menuheading">Shells</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.litestep }}
-<span class="menuheading2">Litestep</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.ls_modules }}
-<span class="menuheading">LS Modules</span><br>
+{{ range $section := site.Params.sidebar_sections }}
+{{ $menu := index site.Menus $section.menu }}
+{{ with $menu }}
+<span class="{{ $section.style | default "menuheading" }}">
+{{- with $section.headingUrl }}<a href="{{ . }}">{{ $section.heading }}</a>{{ else }}{{ $section.heading }}{{ end -}}
+</span><br>
 {{ range . }}
 <a href="{{ .URL }}">{{ .Name }}</a>{{ if .Params.important }} <b>(Important!)</b>{{ end }}<br>
 {{ end }}
 <br>
 {{ end }}
-
-{{ with site.Menus.ls_modules_updated }}
-<span class="menuheading2">Last Updated</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.get_litestep }}
-<span class="menuheading">Get Litestep</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.get_litestep_builds }}
-<span class="menuheading2">Builds</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.tutorials }}
-<span class="menuheading">Tutorials</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.mailing_lists }}
-<span class="menuheading">Mailing Lists</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.customizing }}
-<span class="menuheading">Customizing</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.utilities }}
-<span class="menuheading">Utilities</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
-{{ end }}
-
-{{ with site.Menus.misc }}
-<span class="menuheading">Misc</span><br>
-{{ range . }}
-<a href="{{ .URL }}">{{ .Name }}</a><br>
-{{ end }}
-<br>
 {{ end }}
 
 {{ range site.Params.desktops.items }}
@@ -117,6 +21,8 @@
 </div><br><br>
 {{ end }}
 
-<a href="/buttons/"><img src="/img/fpnbutton04.gif" width="90" height="30" border="0" alt="Click here for more buttons!"></a><br><br>
+{{ with site.Params.sidebarButton }}
+<a href="{{ .url }}"><img src="{{ .image }}" width="{{ .width }}" height="{{ .height }}" border="0" alt="{{ .alt }}"></a><br><br>
+{{ end }}
 
 </div>
