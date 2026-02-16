@@ -77,75 +77,64 @@ theme = 'floach'
 # Set "headingUrl" to make the heading itself a link.
 
 [[params.sidebar_sections]]
-  heading = "Bulletin Board"
-  menu = "bulletin_board"
-  style = "menuheading"
-  headingUrl = "#"
-
-[[params.sidebar_sections]]
-  heading = "Hosted"
-  menu = "hosted"
-  style = "menuheading"
-
-[[params.sidebar_sections]]
   heading = "Must See Sites"
   menu = "must_see"
   style = "menuheading"
 
 [[params.sidebar_sections]]
-  heading = "Shells"
-  menu = "shells"
+  heading = "Old Web"
+  menu = "old_web"
   style = "menuheading"
 
 [[params.sidebar_sections]]
-  heading = "Litestep"
-  menu = "litestep"
+  heading = "Cool Apps"
+  menu = "cool_apps"
   style = "menuheading2"
 
-[[params.sidebar_sections]]
-  heading = "LS Modules"
-  menu = "ls_modules"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "LS Modules"
+#   menu = "ls_modules"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Last Updated"
-  menu = "ls_modules_updated"
-  style = "menuheading2"
+# [[params.sidebar_sections]]
+#   heading = "Last Updated"
+#   menu = "ls_modules_updated"
+#   style = "menuheading2"
 
-[[params.sidebar_sections]]
-  heading = "Get Litestep"
-  menu = "get_litestep"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Get Litestep"
+#   menu = "get_litestep"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Builds"
-  menu = "get_litestep_builds"
-  style = "menuheading2"
+# [[params.sidebar_sections]]
+#   heading = "Builds"
+#   menu = "get_litestep_builds"
+#   style = "menuheading2"
 
-[[params.sidebar_sections]]
-  heading = "Tutorials"
-  menu = "tutorials"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Tutorials"
+#   menu = "tutorials"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Mailing Lists"
-  menu = "mailing_lists"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Mailing Lists"
+#   menu = "mailing_lists"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Customizing"
-  menu = "customizing"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Customizing"
+#   menu = "customizing"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Utilities"
-  menu = "utilities"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Utilities"
+#   menu = "utilities"
+#   style = "menuheading"
 
-[[params.sidebar_sections]]
-  heading = "Misc"
-  menu = "misc"
-  style = "menuheading"
+# [[params.sidebar_sections]]
+#   heading = "Misc"
+#   menu = "misc"
+#   style = "menuheading"
 
 # Sidebar button image (bottom of sidebar)
 [params.sidebarButton]
