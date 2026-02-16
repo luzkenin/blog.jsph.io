@@ -16,7 +16,7 @@
 {{ range site.Params.desktops.items }}
 <span class="menuheading2">{{ .heading }}</span><br>
 <a href="{{ .imageUrl }}"><img src="{{ .image }}" border="0" alt="{{ .imageAlt }}" width="150" height="112"></a><br>
-<div align="center">
+<div align="right">
 {{ range $i, $link := .links }}{{ if $i }} | {{ end }}<a href="{{ $link.url }}">{{ $link.name }}</a>{{ end }}
 </div><br><br>
 {{ end }}
