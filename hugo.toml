@@ -114,6 +114,27 @@ theme = 'floach'
   url = "https://neocities.org/"
   weight = 1
 
+[[menus.cool_apps]]
+  name = "Jellyfin"
+  url = "#"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Plex"
+  url = "https://www.plex.tv/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "audiobookshelf"
+  url = "https://www.audiobookshelf.org/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Unraid"
+  url = "https://unraid.net/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Lubelogger"
+  url = "https://lubelogger.com/"
+  weight = 1
+
 [[menus.shells]]
   name = "CodeX"
   url = "#"
@@ -222,69 +243,6 @@ theme = 'floach'
   weight = 2
   [menus.ls_modules.params]
     important = true
-
-[[menus.ls_modules_updated]]
-  name = "smbangs r3"
-  url = "#"
-  weight = 1
-[[menus.ls_modules_updated]]
-  name = "bang.exe"
-  url = "#"
-  weight = 2
-[[menus.ls_modules_updated]]
-  name = "lsdrinks"
-  url = "#"
-  weight = 3
-[[menus.ls_modules_updated]]
-  name = "rainlendar"
-  url = "#"
-  weight = 4
-[[menus.ls_modules_updated]]
-  name = "textedit"
-  url = "#"
-  weight = 5
-[[menus.ls_modules_updated]]
-  name = "lsmail"
-  url = "#"
-  weight = 6
-
-[[menus.get_litestep]]
-  name = "builds@ls.net"
-  url = "#"
-  weight = 1
-[[menus.get_litestep]]
-  name = "old LS builds"
-  url = "#"
-  weight = 2
-[[menus.get_litestep]]
-  name = "lsdev@fpn"
-  url = "#"
-  weight = 3
-[[menus.get_litestep]]
-  name = "Changes.txt"
-  url = "#"
-  weight = 4
-[[menus.get_litestep]]
-  name = "Source Code"
-  url = "#"
-  weight = 5
-[[menus.get_litestep]]
-  name = "msvcp60.dll"
-  url = "#"
-  weight = 6
-
-[[menus.get_litestep_builds]]
-  name = "Litestep 0.24.5"
-  url = "#"
-  weight = 1
-[[menus.get_litestep_builds]]
-  name = "Latest FPN Build"
-  url = "#"
-  weight = 2
-[[menus.get_litestep_builds]]
-  name = "Latest LSDev Build"
-  url = "#"
-  weight = 3
 
 [[menus.tutorials]]
   name = "Upgrading LS"
