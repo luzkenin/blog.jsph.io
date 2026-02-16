@@ -13,7 +13,7 @@ theme = 'floach'
   # The tagline HTML below the logo (supports HTML for per-letter color accents)
   taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">m</font> i c r o s o f t <font color="#A9BC9E">d</font> o t <font color="#A9BC9E">n</font> e t'
   # The italic quote below the tagline
-  quote = "the shell community is full of mountains, valleys, and dangerous cliffs"
+  quote = "just show up"
   # Logo image settings
   logoImage = "/img/blog_jsph_io_banner_399x66.png"
   logoWidth = 399
