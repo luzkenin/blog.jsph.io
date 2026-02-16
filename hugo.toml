@@ -9,13 +9,13 @@ theme = 'floach'
       unsafe = true
 
 [params]
-  description = "the alternative to microsoft dot net"
+  description = "the alternative to whatever you got"
   # The tagline HTML below the logo (supports HTML for per-letter color accents)
-  taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">m</font> i c r o s o f t <font color="#A9BC9E">d</font> o t <font color="#A9BC9E">n</font> e t'
+  taglineHTML = '<font color="#A9BC9E">t</font> h e <font color="#A9BC9E">a</font> l t e r n a t i v e <font color="#A9BC9E">t</font> o <font color="#A9BC9E">w</font> h a t e v e r <font color="#A9BC9E">y</font> o u <font color="#A9BC9E">g</font> o t'
   # The italic quote below the tagline
-  quote = "the shell community is full of mountains, valleys, and dangerous cliffs"
+  quote = "just show up"
   # Logo image settings
-  logoImage = "/img/logo.jpg"
+  logoImage = "/img/blog_jsph_io_banner_399x66.png"
   logoWidth = 399
   logoHeight = 66
   # News archive heading
@@ -69,6 +69,82 @@ theme = 'floach'
   pagerSize = 15
 
 # -------------------------------------------------------
+# Sidebar Section Order & Headings
+# -------------------------------------------------------
+# Each entry defines a sidebar section. The "menu" value must match
+# a [[menus.NAME]] group below. "style" is the CSS class for the
+# heading: "menuheading" (primary) or "menuheading2" (sub-section).
+# Set "headingUrl" to make the heading itself a link.
+
+[[params.sidebar_sections]]
+  heading = "Must See Sites"
+  menu = "must_see"
+  style = "menuheading"
+
+[[params.sidebar_sections]]
+  heading = "Old Web"
+  menu = "old_web"
+  style = "menuheading"
+
+[[params.sidebar_sections]]
+  heading = "Cool Apps"
+  menu = "cool_apps"
+  style = "menuheading2"
+
+# [[params.sidebar_sections]]
+#   heading = "LS Modules"
+#   menu = "ls_modules"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Last Updated"
+#   menu = "ls_modules_updated"
+#   style = "menuheading2"
+
+# [[params.sidebar_sections]]
+#   heading = "Get Litestep"
+#   menu = "get_litestep"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Builds"
+#   menu = "get_litestep_builds"
+#   style = "menuheading2"
+
+# [[params.sidebar_sections]]
+#   heading = "Tutorials"
+#   menu = "tutorials"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Mailing Lists"
+#   menu = "mailing_lists"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Customizing"
+#   menu = "customizing"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Utilities"
+#   menu = "utilities"
+#   style = "menuheading"
+
+# [[params.sidebar_sections]]
+#   heading = "Misc"
+#   menu = "misc"
+#   style = "menuheading"
+
+# Sidebar button image (bottom of sidebar)
+[params.sidebarButton]
+  url = "/buttons/"
+  image = "/img/fpnbutton04.gif"
+  alt = "Click here for more buttons!"
+  width = 90
+  height = 30
+
+# -------------------------------------------------------
 # Sidebar Menus
 # -------------------------------------------------------
 
@@ -112,6 +188,27 @@ theme = 'floach'
 [[menus.old_web]]
   name = "NeoCities"
   url = "https://neocities.org/"
+  weight = 1
+
+[[menus.cool_apps]]
+  name = "Jellyfin"
+  url = "#"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Plex"
+  url = "https://www.plex.tv/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "audiobookshelf"
+  url = "https://www.audiobookshelf.org/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Unraid"
+  url = "https://unraid.net/"
+  weight = 1
+[[menus.cool_apps]]
+  name = "Lubelogger"
+  url = "https://lubelogger.com/"
   weight = 1
 
 [[menus.shells]]
@@ -223,69 +320,6 @@ theme = 'floach'
   [menus.ls_modules.params]
     important = true
 
-[[menus.ls_modules_updated]]
-  name = "smbangs r3"
-  url = "#"
-  weight = 1
-[[menus.ls_modules_updated]]
-  name = "bang.exe"
-  url = "#"
-  weight = 2
-[[menus.ls_modules_updated]]
-  name = "lsdrinks"
-  url = "#"
-  weight = 3
-[[menus.ls_modules_updated]]
-  name = "rainlendar"
-  url = "#"
-  weight = 4
-[[menus.ls_modules_updated]]
-  name = "textedit"
-  url = "#"
-  weight = 5
-[[menus.ls_modules_updated]]
-  name = "lsmail"
-  url = "#"
-  weight = 6
-
-[[menus.get_litestep]]
-  name = "builds@ls.net"
-  url = "#"
-  weight = 1
-[[menus.get_litestep]]
-  name = "old LS builds"
-  url = "#"
-  weight = 2
-[[menus.get_litestep]]
-  name = "lsdev@fpn"
-  url = "#"
-  weight = 3
-[[menus.get_litestep]]
-  name = "Changes.txt"
-  url = "#"
-  weight = 4
-[[menus.get_litestep]]
-  name = "Source Code"
-  url = "#"
-  weight = 5
-[[menus.get_litestep]]
-  name = "msvcp60.dll"
-  url = "#"
-  weight = 6
-
-[[menus.get_litestep_builds]]
-  name = "Litestep 0.24.5"
-  url = "#"
-  weight = 1
-[[menus.get_litestep_builds]]
-  name = "Latest FPN Build"
-  url = "#"
-  weight = 2
-[[menus.get_litestep_builds]]
-  name = "Latest LSDev Build"
-  url = "#"
-  weight = 3
-
 [[menus.tutorials]]
   name = "Upgrading LS"
   url = "#"
@@ -394,19 +428,11 @@ theme = 'floach'
 # Desktop screenshots shown in sidebar
 [params.desktops]
   [[params.desktops.items]]
-    heading = "root's desktop"
-    image = "/img/rootriderss-small.jpg"
-    imageAlt = "rootrider's SS"
-    imageUrl = "#"
+    heading = "luzkenin's old desktop"
+    image = "/img/110303.JPG"
+    imageAlt = "luzkenin's SS"
+    imageUrl = "/img/110303.JPG"
     links = [
       { name = "journal", url = "#" },
       { name = "User #24", url = "#" },
-    ]
-  [[params.desktops.items]]
-    heading = "KuhnDog's desktop"
-    image = "/img/kuhndogss-small.jpg"
-    imageAlt = "Kuhndog's Screenshot"
-    imageUrl = "#"
-    links = [
-      { name = "User #9", url = "#" },
     ]
