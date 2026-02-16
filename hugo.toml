@@ -53,6 +53,18 @@ theme = 'floach'
     alt = "Build your own site"
     width = 88
     height = 31
+  [[params.footer_buttons.items]]
+    url = "https://deletefacebook.com/"
+    image = "/img/fckfb.gif"
+    alt = "fuck zuck"
+    width = 88
+    height = 31
+  [[params.footer_buttons.items]]
+    url = "#"
+    image = "/img/doomrl.gif"
+    alt = "DOOM"
+    width = 88
+    height = 31
 
 # Secondary footer button (displayed below the main row)
 [params.footer_buttons.secondary]
@@ -89,6 +101,11 @@ theme = 'floach'
 [[params.sidebar_sections]]
   heading = "Cool Apps"
   menu = "cool_apps"
+  style = "menuheading2"
+
+[[params.sidebar_sections]]
+  heading = "Cool Games"
+  menu = "cool_games"
   style = "menuheading2"
 
 # [[params.sidebar_sections]]
