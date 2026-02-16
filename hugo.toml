@@ -15,7 +15,7 @@ theme = 'floach'
   # The italic quote below the tagline
   quote = "the shell community is full of mountains, valleys, and dangerous cliffs"
   # Logo image settings
-  logoImage = "/img/logo.jpg"
+  logoImage = "/img/blog_jsph_io_banner_399x66.png"
   logoWidth = 399
   logoHeight = 66
   # News archive heading
