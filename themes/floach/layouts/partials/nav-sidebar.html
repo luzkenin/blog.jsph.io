@@ -13,6 +13,15 @@
 {{ end }}
 {{ end }}
 
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ with $posts }}
+<span class="menuheading">Archives</span><br>
+{{ range .GroupByDate "2006" }}
+<a href="/archive/#{{ .Key }}">{{ .Key }}</a> ({{ len .Pages }})<br>
+{{ end }}
+<br>
+{{ end }}
+
 {{ range site.Params.desktops.items }}
 <span class="menuheading2">{{ .heading }}</span><br>
 <a href="{{ .imageUrl }}"><img src="{{ .image }}" border="0" alt="{{ .imageAlt }}" width="150" height="112"></a><br>
