@@ -1,0 +1,14 @@
+{{ define "main" }} <font color="A9BC9E" size="3"><b>News Archive</b></font
+><br /><br />
+
+{{ $posts := where site.RegularPages "Section" "posts" }} {{ range
+$posts.GroupByDate "2006" }} {{ if gt (len .Pages) 0 }}
+<a name="{{ .Key }}"></a>
+<font color="A9BC9E" size="2"><b>[ {{ .Key }} ]</b></font
+><br /><br />
+{{ range .Pages }}
+<font color="A9BC9E" size="1"><b>{{ .Date.Format "01-02" }}</b></font>
+&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+{{ end }}
+<br />
+{{ end }} {{ end }} {{ end }}

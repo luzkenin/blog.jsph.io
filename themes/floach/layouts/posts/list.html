@@ -1,6 +1,10 @@
 {{ define "main" }}
-<font color="A9BC9E" size="3"><b>{{ site.Params.newsArchiveHeading | default "News Archive" }}</b></font><br><br>
-{{ range .Pages }}
-  {{ partial "post-item.html" . }}
-{{ end }}
-{{ end }}
+<font color="A9BC9E" size="3"
+    ><b>{{ site.Params.newsArchiveHeading | default "News Archive" }}</b></font
+><br /><br />
+{{ range .Pages.GroupByDate "2006" }}
+<a name="y{{ .Key }}"></a>
+<font color="A9BC9E" size="2"><b>[ {{ .Key }} ]</b></font
+><br /><br />
+{{ range .Pages }} {{ partial "post-item.html" . }} {{ end }} {{ end }} {{ end
+}}
