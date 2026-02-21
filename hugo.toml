@@ -218,6 +218,10 @@ theme = 'floach'
   name = "Winamp Skin Museum"
   url = "https://skins.webamp.org/"
   weight = 3
+[[menus.old_web]]
+  name = "Wiby"
+  url = "https://wiby.org/"
+  weight = 4
 
 [[menus.cool_apps]]
   name = "Jellyfin"
