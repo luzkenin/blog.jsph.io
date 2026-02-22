@@ -1,0 +1,6 @@
+{{ define "main" }}
+<font color="A9BC9E" size="3"><b>Tags</b></font><br><br>
+{{ range .Data.Terms.Alphabetical }}
+<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})<br>
+{{ end }}
+{{ end }}

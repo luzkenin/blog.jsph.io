@@ -10,4 +10,5 @@
 {{ end }}<br>
 -<a href="mailto:{{ .Params.authorEmail }}"> {{ .Params.author }} </a> - @
 <font color="A9BC9E" size="0"><b> {{ .Date.Format "01-02-2006, 3:04 PM" }} </b></font>
+{{ with .Params.tags }}<br><font color="A9BC9E" size="1">[ tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">{{ . }}</a>{{ end }} ]</font>{{ end }}
 <br><br><br>

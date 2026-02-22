@@ -1,0 +1,6 @@
+{{ define "main" }}
+<font color="A9BC9E" size="3"><b>Posts tagged "{{ .Title }}"</b></font><br><br>
+{{ range .Pages }}
+  {{ partial "post-item.html" . }}
+{{ end }}
+{{ end }}
