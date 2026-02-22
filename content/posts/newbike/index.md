@@ -6,6 +6,7 @@ authorEmail: "luzkenin@jsph.io"
 linkUrl: "https://www.kyootbikes.com/"
 linkName: "kyootbikes.com"
 linkDisplay: "https://www.kyootbikes.com/"
+tags: ["bikes", "life"]
 ---
 
 I got a new bike!. Its a BMX style minivelo made by Kyoot.
