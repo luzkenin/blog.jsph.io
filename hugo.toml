@@ -231,19 +231,28 @@ theme = 'floach'
 [[menus.cool_apps]]
   name = "Plex"
   url = "https://www.plex.tv/"
-  weight = 1
+  weight = 2
 [[menus.cool_apps]]
   name = "audiobookshelf"
   url = "https://www.audiobookshelf.org/"
-  weight = 1
+  weight = 3
 [[menus.cool_apps]]
   name = "Unraid"
   url = "https://unraid.net/"
-  weight = 1
+  weight = 4
 [[menus.cool_apps]]
   name = "Lubelogger"
   url = "https://lubelogger.com/"
+  weight = 5
+
+[[menus.cool_games]]
+  name = "GameDate"
+  url = "https://www.gamedate.org/"
   weight = 1
+[[menus.cool_games]]
+  name = "Old Unreal"
+  url = "https://www.oldunreal.com/"
+  weight = 2
 
 [[menus.homelab]]
   name = "DB Tech"
