@@ -26,7 +26,8 @@ theme = 'floach'
   privacyPolicyPath = "/policy.txt"
   # Background tile credit text (leave empty to hide)
   bgCreditHTML = '(for this background, and many more cool-looking tiles, check out <a href="https://github.com/BenjaminHCCarr/PropagandaTiles">Propaganda</a>.)'
-
+  mastodon = "https://infosec.exchange/@luzkenin"
+  
 # Footer button images
 [params.footer_buttons]
   [[params.footer_buttons.items]]
@@ -118,7 +119,6 @@ theme = 'floach'
    heading = "Misc"
    menu = "misc"
    style = "menuheading"
-   mastodon = "https://infosec.exchange/@luzkenin"
 
 # [[params.sidebar_sections]]
 #   heading = "Last Updated"
