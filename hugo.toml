@@ -114,6 +114,12 @@ theme = 'floach'
    menu = "homelab"
    style = "menuheading"
 
+ [[params.sidebar_sections]]
+   heading = "Misc"
+   menu = "misc"
+   style = "menuheading"
+   mastodon = "https://infosec.exchange/@luzkenin"
+
 # [[params.sidebar_sections]]
 #   heading = "Last Updated"
 #   menu = "ls_modules_updated"
@@ -457,14 +463,6 @@ theme = 'floach'
   weight = 3
 
 [[menus.misc]]
-  name = "State of the Step"
-  url = "#"
-  weight = 1
-[[menus.misc]]
-  name = "cheggidout archive"
-  url = "#"
-  weight = 2
-[[menus.misc]]
   name = "Articles"
   url = "#"
   weight = 3
@@ -477,8 +475,8 @@ theme = 'floach'
   url = "#"
   weight = 5
 [[menus.misc]]
-  name = "Contact"
-  url = "#"
+  name = "Mastodon"
+  url = "https://infosec.exchange/@luzkenin"
   weight = 6
 
 # Desktop screenshots shown in sidebar
