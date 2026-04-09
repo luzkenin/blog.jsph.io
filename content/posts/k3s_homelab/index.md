@@ -127,3 +127,5 @@ Three Framework Desktops. K3s. Ansible all the way down. Eight roles, five playb
 I can wipe a node, reinstall Fedora, and bring it back into the cluster by running `site.yml` again. That's the part that made the automation worth it. Not the initial deploy, but every time after that when something needs to be rebuilt.
 
 I'm pretty happy with it.
+
+![k3s Framwork Desktop Cluster](10600977d94e4d95.png)
