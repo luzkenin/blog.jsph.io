@@ -229,10 +229,14 @@ theme = 'floach'
   name = "Wiby"
   url = "https://wiby.org/"
   weight = 4
+[[menus.old_web]]
+  name = "DialUpChronicles.net"
+  url = "https://www.dialupchronicles.net/"
+  weight = 5
 
 [[menus.cool_apps]]
   name = "Jellyfin"
-  url = "#"
+  url = "https://jellyfin.org/"
   weight = 1
 [[menus.cool_apps]]
   name = "Plex"
