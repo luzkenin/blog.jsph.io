@@ -27,7 +27,7 @@ theme = 'floach'
   # Background tile credit text (leave empty to hide)
   bgCreditHTML = '(for this background, and many more cool-looking tiles, check out <a href="https://github.com/BenjaminHCCarr/PropagandaTiles">Propaganda</a>.)'
   mastodon = "https://infosec.exchange/@luzkenin"
-  
+
 # Footer button images
 [params.footer_buttons]
   [[params.footer_buttons.items]]
@@ -180,10 +180,6 @@ theme = 'floach'
   name = "Rushdynamics"
   url = "https://blog.rushdynamics.com/"
   weight = 2
-[[menus.must_see]]
-  name = "digg.com"
-  url = "https://digg.com/?feed=all-digg"
-  weight = 3
  [[menus.must_see]]
    name = "Wplace"
    url = "https://wplace.live/"
